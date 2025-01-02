@@ -1,6 +1,6 @@
 # da-project-promo-47-modulo-2-team-3
 ## Segundo proyecto. Módulo2. MusicStream.
-Las componentes del equipo, y por tanto autoras de este proyecto son:
+Las componentes del equipo CODIGOLIS, y por tanto autoras de este proyecto son:
 
 - Elena Alique Baumann.
 - Carlota Gómez Martínez.
