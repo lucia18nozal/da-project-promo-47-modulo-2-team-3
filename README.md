@@ -3,7 +3,9 @@
 Las componentes del equipo CODIGOLIS, y por tanto autoras de este proyecto son:
 
 - Elena Alique Baumann.
+- Neyde Gabriela Fernández Meza. 
 - Carlota Gómez Martínez.
+- Tahiera Jafari.
 - Paola Nadales Sánchez de Puerta.
 - Lucía Nozal Benito.
 
