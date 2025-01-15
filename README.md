@@ -1,67 +1,82 @@
 # da-project-promo-47-modulo-2-team-3
 ## Segundo proyecto. Módulo2. MusicStream.
 
-###  ¿Qué queremos lograr?
+###  Descripción
 
-El propósito principal es identificar cuáles canciones y álbumes destacan entre la multitud y por qué. Para ello:
-- Recopilamos datos relevantes desde APIs confiables como **Spotify** y **Last.fm**.
-- Organizamos esta información en una base de datos clara y funcional.
-- Analizamos los datos para descubrir patrones y responder preguntas clave.
+MusicStream es una plataforma de streaming que busca analizar las tendencias musicales y mejorar la experiencia del usuario. Este proyecto tiene como objetivo evaluar la popularidad de canciones y álbumes desde el año 2000 hasta la fecha, utilizando datos obtenidos de las **APIs** de **Spotify** y **last.fm**. A través del análisis de las calificaciones, número de reproducciones y reseñas de los usuarios, se identifican los artistas, canciones y álbumes más populares, proporcionando una visión más detallada del comportamiento musical a lo largo de los años.
 
-###  ¿Cómo lo hacemos?
 
-1. **Recopilación de Datos**:
+### Objetivos
+
+- Consolidar conocimientos de Python y SQL.
+- Implementar control de versiones en equipo con Git y GitHub.
+- Utilizar el marco ágil Scrum para gestionar el proyecto.
+- Mejorar la comunicación y presentación de resultados dentro del equipo.
+
+###  Estructura del Proyecto
+
+1. **Extracción de Datos**:
    - Usamos APIs para obtener datos de canciones, artistas y álbumes populares.
    - Combinamos información de distintas fuentes para un análisis más completo.
 
-2. **Almacenamiento Inteligente**:
+2. **Organización y Almacenamiento de Datos**:
    - Diseñamos una base de datos que permite manejar grandes volúmenes de información.
    - Transformamos los datos en un formato adecuado para su análisis.
 
-3. **Análisis en Acción**:
+3. **Análisis y Consultas de Datos**:
    - Buscamos tendencias que expliquen la popularidad de ciertas canciones.
    - Comparamos géneros y artistas a lo largo de las décadas.
 
-###  Herramientas que utilizamos
+4. **Presentación de Resultados**: 
+    - Presentar los hallazgos de manera clara y estructurada, con una demostración de los resultados obtenidos.
 
-- **Lenguajes**: Python y SQL.
-- **APIs**: Spotify y Last.fm.
-- **Bases de Datos**: MySQL Workbench.
-- **Bibliotecas**: Pandas.
 
-## ¿Cómo empezar?
+###  APIs que utilizamos
 
-1. **Clonar el repositorio**:
-   ```bash
-   git clone https://github.com/lucia18nozal/da-project-promo-47-modulo-2-team-3
-   cd MusicStream-Analysis
-   ```
+- **Spotify Web API**: Para obtener datos sobre canciones, álbumes, géneros y artistas.
+- **last.fm API**: Para obtener detalles adicionales como biografía del artista, estadísticas de reproducción y popularidad.
 
-2. **Instalar dependencias**:
-   - Crea un entorno virtual e instala las bibliotecas necesarias:
-     ```bash
-     python -m venv venv
-     source venv/bin/activate  # En Windows: venv\Scripts\activate
-     pip install -r requirements.txt
-     ```
 
-3. **Configurar claves de acceso**:
-   - Añade un archivo `.env` con tus credenciales:
-     ```env
-     SPOTIFY_CLIENT_ID=tu_client_id
-     SPOTIFY_CLIENT_SECRET=tu_client_secret
-     LASTFM_API_KEY=tu_api_key
-     ```
+### Tecnologías Utilizadas
 
-4. **Iniciar el análisis**:
-   - Ejecuta el script principal:
-     ```bash
-     python src/main.py
-     ```
+- **Python**: Para la extracción de datos de las APIs y procesamiento de información.
+- **SQL (MySQL Workbench)**: Para almacenar los datos extraídos en una base de datos estructurada.
+- **GitHub**: Para control de versiones y colaboración en equipo.
+- **Scrum**: Metodología ágil para la gestión del proyecto.
+
+
+### Fases del Proyecto
+
+#### Fase 1: Extracción de Datos
+
+1. Spotify API: Obtención de información sobre canciones y álbumes de 2000 a 2024.
+2. last.fm API: Complementar los datos con detalles de popularidad y biografía de artistas.
+
+#### Fase 2: Organización y Almacenamiento de Datos
+
+1. Creación de la base de datos en SQL.
+2. Estructuración de tablas para almacenar la información de manera eficiente (Artistas, Géneros, Álbumes, Canciones, etc.).
+
+#### Fase 3: Análisis y Consultas de Datos
+
+1. Realización de consultas SQL para responder a preguntas clave sobre los datos recolectados.
+2. Análisis de los resultados y generación de insights.
+
+#### Fase 4: Presentación de Resultados
+
+1. Preparación de la presentación final para demostrar los resultados obtenidos.
+2. Discusión de los desafíos enfrentados y las lecciones aprendidas.
+
+
+## Retos y Aprendizajes
+
+Durante el desarrollo del proyecto, hemos reforzado el trabajar en equipo utilizando metodologías ágiles como Scrum. Hemos enfrentado retos relacionados con la integración de múltiples APIs, la limpieza de datos y el diseño de la base de datos, lo que nos ha permitido mejorar nuestras habilidades técnicas y de colaboración.
+
 
 ### Contribuciones
 
 Si tienes ideas o mejoras para este proyecto, ¡eres bienvenido! Abre un issue o envía un pull request con tus propuestas
+
 
 ### Componentes
 
