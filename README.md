@@ -68,7 +68,7 @@ MusicStream es una plataforma de streaming que busca analizar las tendencias mus
 2. Discusión de los desafíos enfrentados y las lecciones aprendidas.
 
 
-## Retos y Aprendizajes
+### Retos y Aprendizajes
 
 Durante el desarrollo del proyecto, hemos reforzado el trabajar en equipo utilizando metodologías ágiles como Scrum. Hemos enfrentado retos relacionados con la integración de múltiples APIs, la limpieza de datos y el diseño de la base de datos, lo que nos ha permitido mejorar nuestras habilidades técnicas y de colaboración.
 
