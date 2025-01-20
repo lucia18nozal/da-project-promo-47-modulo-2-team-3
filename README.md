@@ -49,7 +49,7 @@ MusicStream es una plataforma de streaming que busca analizar las tendencias mus
 
 #### Fase 1: Extracción de Datos
 
-1. Spotify API: Obtención de información sobre canciones y álbumes de 2000 a 2024.
+1. Spotify API: Obtención de información sobre canciones y álbumes de 2002 a 2007 cuyo género sea pop, rock, jazz o hip hop.
 2. last.fm API: Complementar los datos con detalles de popularidad y biografía de artistas.
 
 #### Fase 2: Organización y Almacenamiento de Datos
