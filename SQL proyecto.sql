@@ -5,7 +5,7 @@ CREATE TABLE Artistas (
     biografia TEXT,
     popularidad INTEGER,
     reproducciones INT,
-    artistas_similares VARCHAR(255)
+    artistas_similares TEXT(1000)
 );
 CREATE TABLE AlbumesyCanciones (
     nombre_cancion VARCHAR(255),
