@@ -43,7 +43,6 @@ ORDER BY max_reproducciones DESC
 LIMIT 1;
 
 -- ¿Qué país tiene más artistas? (ordenar por popularidad) NO HAY COLUMNA PAIS - ALTER TABLE Artistas ADD COLUMN pais VARCHAR(255);
-
 SELECT 'España' AS pais, COUNT(*) AS num_artistas, AVG(popularidad) AS avg_popularidad
 FROM Artistas
 WHERE biografia LIKE '%España%'
