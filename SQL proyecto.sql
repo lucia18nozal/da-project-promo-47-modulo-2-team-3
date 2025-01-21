@@ -4,7 +4,7 @@ USE music_stream;
 
 CREATE TABLE Artistas (
 	id_artistas INT AUTO_INCREMENT PRIMARY KEY,
-	nombre_artistas VARCHAR(255),
+	nombre_artistas VARCHAR(255) UNIQUE,
     biografia TEXT,
     popularidad INTEGER,
     reproducciones INT,
@@ -17,6 +17,5 @@ CREATE TABLE AlbumesyCanciones (
     genre VARCHAR(10),
     type VARCHAR(10),
     year INT,
-    id_artista INT,
-    FOREIGN KEY (id_artista) REFERENCES Artistas(id_artistas)
+    FOREIGN KEY (nombre_artista) REFERENCES Artistas(nombre_artistas)
 );
