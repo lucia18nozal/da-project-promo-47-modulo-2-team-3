@@ -73,10 +73,18 @@ MusicStream es una plataforma de streaming que busca analizar las tendencias mus
 Durante el desarrollo del proyecto, hemos reforzado el trabajar en equipo utilizando metodologías ágiles como Scrum. Hemos enfrentado retos relacionados con la integración de múltiples APIs, la limpieza de datos y el diseño de la base de datos, lo que nos ha permitido mejorar nuestras habilidades técnicas y de colaboración.
 
 
-### Contribuciones
-
-Si tienes ideas o mejoras para este proyecto, ¡eres bienvenido! Abre un issue o envía un pull request con tus propuestas
-
+### Cómo ejecutar el proyecto MusicStream
+Requisitos previos:
+   - Antes de comenzar, asegúrate de tener lo siguiente instalado en tu sistema:
+   - Python 3.9 o superior.
+   - Git (para clonar el repositorio).
+   - MySQL Workbench o cualquier cliente de bases de datos SQL compatible.
+   - Entorno virtual de Python (recomendado).
+Una vez comprobado que se cumplen los requisitos anteriores, se puede proceder a ejecutar el proyecto.
+Por un lado primero, hay que crear la base de datos, que se encuentra en el archivo 'SQL proyecto'. Tras ejecutar la creación, desde Python se deben ejecutar todas las celdas desde la 17 hasta el final. 
+De esta forma se van a importar en la base de datos creada todos los datos obtenidos previamente desde Python que se encuentran en los archivos 'canciones.cvs' y 'datos_artistas.cvs'. 
+Como ya está completa la base de datos, se puede empezar a realizar cualquier consulta que se desee. 
+Las consultas que hemos planteado y realizado nosotras se encuentan en el archivo 'Queries proyecto', desde ahí se podrán ejecutar y ver los resultados obtenidos.
 
 ### Componentes
 
